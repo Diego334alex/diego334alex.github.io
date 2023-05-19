@@ -94,7 +94,10 @@ header nav a.activo {
 .seccion-principal .boton:hover {
     color: black;
     background-image: linear-gradient(to right, #24ff3a 0%, #0091ff 100%);
-    transition: all 0.3s;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-property: initial;
+    transition-timing-function: linear;
     border-radius: 4px;
 }
 
