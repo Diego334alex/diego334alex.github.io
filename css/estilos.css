@@ -92,8 +92,10 @@ header nav a.activo {
 }
 
 .seccion-principal .boton:hover {
-	background: #5fff4a;
-	color: #000;
+    color: black;
+    background-image: linear-gradient(to right, #24ff3a 0%, #0091ff 100%);
+    transition: all 0.3s;
+    border-radius: 4px;
 }
 
 .seccion-principal .boton i {
