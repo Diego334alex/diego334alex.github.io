@@ -81,13 +81,13 @@ header nav a.activo {
 
 .seccion-principal .boton {
 	background: rgba(18, 196, 250, 0.822);
-	border: none;
-	border-radius: 0.31em;
+	border: black;
+	border-radius: 2em;
 	padding: 0.93em 1.87em;
 	color: #dfdfdf;
 	margin-right: 1.25em;
 	cursor: pointer;
-	transition: .3s ease all;
+	transition: .3s ease linear;
 	font-size: 1.12em;
 }
 
@@ -98,7 +98,7 @@ header nav a.activo {
     transition-duration: 0.5s;
     transition-property: initial;
     transition-timing-function: linear;
-    border-radius: 4px;
+    border-radius: 0.5em;
 }
 
 .seccion-principal .boton i {
@@ -254,7 +254,6 @@ background: rgba(0, 0, 0, .9);
     color: #00ffb3;
     display: flex;
     align-items: center;
-    cursor: pointer;
     text-decoration: none;
     font-size: x-large;
   }
@@ -262,30 +261,22 @@ background: rgba(0, 0, 0, .9);
   .footer__links {
     width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
   }
   
   .footer__link--wrapper-izquierda,
   .footer__link--wrapper-derecha {
     display: flex;
+    width: 70%;
+    align-items: center;
   }
   
-  .footer__link--items-izquierda {
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0px;
-    text-align: left;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
+  .footer__link--items-izquierda,
   .footer__link--items-derecha {
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin: 0px;
     text-align: left;
     width: 100%;
