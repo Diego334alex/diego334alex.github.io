@@ -21,25 +21,35 @@ body {
 
 header {
 	padding: 30px 5;
+  width: 100%;
+  height: 100%;
 }
 
-header .contenedor {
+header .contenedor-uno {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+}
+
+header .contenedor-dos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  font-style: italic;
+  padding: 10px;
 }
 
 header .logotipo {
 	font-family: 'Curlz MT';
 	font-weight: normal;
-	color: var(--plateado);
-	font-size: 40px;
+	color: #00ffb3;
+	font-size: 60px;
 }
 
 header nav a {
 	color: #dfdfdf;
 	text-decoration: none;
-	margin-right: 20px;
+	margin-right: 40px;
 }
 
 header nav a:hover,
@@ -50,14 +60,14 @@ header nav a.activo {
 /* ---- ----- ----- Sección Principal ----- ----- ----- */
 .seccion-principal {
 	font-size: 16px;
-	min-height: 60em;
-	color: #dfdfdf;
+	min-height: 70em;
+	color: #fff;
 	background: linear-gradient(rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 20%), url(../img/backdrop.png);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
 	display: flex;
-	align-items: end;
+	align-items: center;
 }
 
 .seccion-principal .contenedor {
@@ -66,16 +76,17 @@ header nav a.activo {
 }
 
 .seccion-principal .titulo {
+  font-family: "Times New Roman";
 	font-weight: 600;
-	font-size: 3.12em;
+	font-size: 800%;
 	margin-bottom: 0.4em;
 }
 
 .seccion-principal .descripcion {
 	font-weight: normal;
-	font-size: 1em;
+	font-size: 2em;
 	line-height: 1.75em;
-	max-width: 50%;
+	max-width: 80%;
 	margin-bottom: 1.25em;
 }
 
