@@ -60,9 +60,9 @@ header nav a.activo {
 /* ---- ----- ----- Sección Principal ----- ----- ----- */
 .seccion-principal {
 	font-size: 16px;
-	min-height: 70em;
+	min-height: 50em;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 20%), url(../img/backdrop.png);
+	background: linear-gradient(rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 20%), url(https://www.sportlife.es/uploads/s1/75/26/74/7/5bc5a8a90de694202e3496c7-10-claves-para-comer-en-familia-de-forma-saludable.jpeg);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
@@ -144,18 +144,18 @@ header nav a.activo {
 
 
 /* ---- ----- ----- Contenedor principal y flechas. ----- ----- ----- */
-.categorias-recomendadas {
+.carne-de-res {
   margin-bottom: 5px;
 }
 
-.categorias-recomendadas .contenedor-principal {
+.carne-de-res .contenedor-principal {
   display: flex;
   align-items: center;
   position: relative;
 }
 
-.categorias-recomendadas .contenedor-principal .flecha-izquierda,
-.categorias-recomendadas .contenedor-principal .flecha-derecha {
+.carne-de-res .contenedor-principal .flecha-izquierda,
+.carne-de-res .contenedor-principal .flecha-derecha {
   position: absolute;
   border: none;
   background: rgba(0, 0, 0, 0.3);
@@ -170,44 +170,44 @@ header nav a.activo {
   transition: .2s ease all;
 }
 
-.categorias-recomendadas .contenedor-principal .flecha-izquierda:hover,
-.categorias-recomendadas .contenedor-principal .flecha-derecha:hover {
+.carne-de-res .contenedor-principal .flecha-izquierda:hover,
+.carne-de-res .contenedor-principal .flecha-derecha:hover {
 background: rgba(0, 0, 0, .9);
 }
 
-.categorias-recomendadas .contenedor-principal .flecha-izquierda {
+.carne-de-res .contenedor-principal .flecha-izquierda {
   left: 0;
 }
 
-.categorias-recomendadas .contenedor-principal .flecha-derecha {
+.carne-de-res .contenedor-principal .flecha-derecha {
   right: 0;
 }
 
 /* ---- ----- ----- Carousel. ----- ----- ----- */
-.categorias-recomendadas .contenedor-carousel {
+.carne-de-res .contenedor-carousel {
   width: 100%;
   padding: 20px 0;
   overflow: hidden;
   scroll-behavior: smooth;
 }
 
-.categorias-recomendadas .contenedor-carousel .carousel {
+.carne-de-res .contenedor-carousel .carousel {
   display: flex;
   flex-wrap: nowrap;
 }
 
-.categorias-recomendadas .contenedor-carousel .carousel .categoria {
+.carne-de-res .contenedor-carousel .carousel .categoria {
   min-width: 20%;
   transition: .3s ease all;
   box-shadow: 5px 5px 10 px rgba(0, 0, 0, .3);
 }
 
-.categorias-recomendadas .contenedor-carousel .carousel .categoria.hover {
+.carne-de-res .contenedor-carousel .carousel .categoria.hover {
   transform: scale(1.2);
   transform-origin: center;
 }
 
-.categorias-recomendadas .contenedor-carousel .carousel .categoria img {
+.carne-de-res .contenedor-carousel .carousel .categoria img {
   width: 100%;
   vertical-align: top;
 }
@@ -232,19 +232,19 @@ background: rgba(0, 0, 0, .9);
 		max-width: 100%;
 	}
 
-  .categorias-recomendadas .contenedor-carousel {
+  .carne-de-res .contenedor-carousel {
 		overflow: visible;
 	}
 
-  .categorias-recomendadas .contenedor-carousel .carousel {
+  .carne-de-res .contenedor-carousel .carousel {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
   
-  .categorias-recomendadas .indicadores, 
-  .categorias-recomendadas .flecha-izquierda,
-  .categorias-recomendadas .flecha-derecha {
+  .carne-de-res .indicadores, 
+  .carne-de-res .flecha-izquierda,
+  .carne-de-res .flecha-derecha {
     display: none;
   }
 }
